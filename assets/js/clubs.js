@@ -24,8 +24,8 @@ function myFunction() {
 
 function filterCategory(input) {
     // Change if categories change
-    var categories = ["Academic and Professional", "Competition/Project Teams", "Culture and Identity", 
-            "Design, Make, Hack", "Entrepreneurship/Consulting", "Fraternities and Sororities", "School, Community and Global Outreach"];
+    var categories = ["Professional Societies", "Graduate Student Organizations","Competition Teams","Project-based Teams", "Community/Global Outreach",
+            "Design, Make, Hack", "Entrepreneurship/Consulting", "Fraternities/Sororities", "Local School Outreach", "Honor Societies"];
 
     // Declare variables
     var filter, ul, li, a, i, header, toggle;
