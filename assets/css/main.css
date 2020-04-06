@@ -680,7 +680,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		/* @media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1280px) {
 
 			.container {
 				width: 90%;
@@ -689,13 +689,13 @@ input, select, textarea {
 
 		} */
 
-		/* @media screen and (max-width: 980px) {
+		@media screen and (max-width: 980px) {
 
 			.container {
 				width: 100% !important;
 			}
 
-		} */
+		}
 
 /* Row */
 
@@ -1436,7 +1436,7 @@ input, select, textarea {
 	  }
 	}
 
-		/* @media screen and (max-width: 980px) {
+		@media screen and (max-width: 980px) {
 
 			.row {
 				display: flex;
@@ -1679,9 +1679,9 @@ input, select, textarea {
 							padding-top: 5em;
 						}
 
-		} */
+		}
 
-		/* @media screen and (max-width: 736px) {
+		@media screen and (max-width: 736px) {
 
 			.row {
 				display: flex;
@@ -1924,7 +1924,7 @@ input, select, textarea {
 							padding-top: 5em;
 						}
 
-		} */
+		}
 
 		@media screen and (max-width: 480px) {
 			.gallery_column {
