@@ -3438,7 +3438,8 @@ input, select, textarea {
 					display: inline-block;
 					margin-left: 1em;
 					color: #000066;
-  				font-weight: bold;
+/*					font-size: 15px;
+*/  				font-weight: bold;
 				}
 
 					#header nav ul li a, #header nav ul li span {
@@ -3637,10 +3638,9 @@ input, select, textarea {
 			}
 
 	}
-
+/**/
 /* Large */
-
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 1280px) and (min-width: 1025px){
 			#content-mobile{display:none;}
 		/* Basic */
 
