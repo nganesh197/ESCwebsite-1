@@ -3422,24 +3422,27 @@ input, select, textarea {
 			margin: 0;
 			position: absolute;
 			top: 0;
+
 		}
 
 		#header nav {
 			position: absolute;
 			right: 1em;
 			top: 1em;
+
 		}
 
 			#header nav ul {
 				margin: 0;
+
 			}
 
 				#header nav ul li {
 					display: inline-block;
-					margin-left: 1em;
+					margin-left: 0.8em;
 					color: #000066;
-/*					font-size: 15px;
-*/  				font-weight: bold;
+					font-size:16px;
+  				font-weight: bold;
 				}
 
 					#header nav ul li a, #header nav ul li span {
@@ -3928,6 +3931,7 @@ input, select, textarea {
 				left: 0;
 				position: fixed;
 				top: 0;
+
 				width: 100%;
 				z-index: 10001;
 				background: #ffffff;

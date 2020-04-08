@@ -3437,6 +3437,7 @@ label{
 					display: inline-block;
 					margin-left: 1em;
 					color: #000066;
+					font-size: 16px;
   				font-weight: bold;
 				}
 
@@ -4176,6 +4177,7 @@ label{
 #acor_pan {
   padding: 0 18px;
   background-color: white;
+	color: #444;
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.2s ease-out;

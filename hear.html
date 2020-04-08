@@ -33,9 +33,9 @@
 					<span class="image"><img src="images/MAIN_long_nobackground.png" alt="Engineering Student Council"  height="105" width="285" style="width:auto;"/></span></a></h1>
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html" style="font-size:18px">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li>
-							<a href="#" style="font-size:18px;">About Us</a>
+							<a href="#">About Us</a>
 							<ul>
 								<li><a href="mission.html">Our Mission</a></li>
 								<li><a href="execs.html">Executive Board</a></li>
@@ -52,7 +52,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="#" style="font-size:18px;">Students</a>
+							<a href="#">Students</a>
 							<ul>
 								<li><a href="academics.html">Academics</a></li>
 								<li><a href="engin_decals.html">Engineering-Focused Decals</a></li>
@@ -69,7 +69,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="#" style="font-size:18px;">Organizations</a>
+							<a href="#">Organizations</a>
 							<ul>
 								<li><a href="clubs.html">Affiliated Organizations</a></li>
 								<li><a href="howtoguide.html">Create an organization</a></li>
@@ -85,7 +85,7 @@
 											</ul>
 										</li>
 										<li><a href="coefacilities.html">CoE Facilities</a></li>
-										<li><a href="calfacilities">Campus Facilities</a></li>
+										<li><a href="calfacilities.html">Campus Facilities</a></li>
 									</ul>
 								</li>
 								<li>
@@ -100,7 +100,7 @@
 								</li>
 							</ul>
 						</li>
-						<li><a href="#" style = "font-size:18px;">Engineers Week</a>
+						<li><a href="#">Engineers Week</a>
 							<ul>
 								<li><a href="eweek_overview.html">Overview</a></li>
 								<li><a href="#" target="_blank">Facebook Pages</a>
@@ -114,7 +114,7 @@
 							</ul>
 
 						</li>
-						<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf0oDhFKccVFXRQNobAbWzRAzk7GRLRipHd-TRSladZOSnpqg/viewform" style = "font-size:18px;">Join Us</a>
+						<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf0oDhFKccVFXRQNobAbWzRAzk7GRLRipHd-TRSladZOSnpqg/viewform">Join Us</a>
 						<li><a href="https://ophd.berkeley.edu/report" target="_blank" class="button primary">Report Sexual Harassment</a></li>
 					</ul>
 				</nav>
@@ -804,7 +804,7 @@
 					</tbody></table>
 					</center>
 			<h4><center>To find all of the details listed in this table, check out this <a href="https://docs.google.com/spreadsheets/d/1KHqDpWaV2-qk00daIf2lF1WxIoGsJp3MWfbQ3D_eslI/edit?usp=sharing" target="_blank">spreadsheet</a>.</center></h4>
-<br /><br />
+<br />
 			<h4><center>If something on this page is incorrect, please email <a>technical@esc.berkeley.edu</center></h4>
 
 <script type="text/javascript">
@@ -866,25 +866,26 @@ var filtersConfig = {
 <div id="acor_pan">
   <p>On the bottom right of the table is text stating "Columns" with a small down arrow next to it. Click this text and a menu will appear. All the checked boxes represent which columns are hidden. To hide a column simply check the box. To show a column just uncheck the box.</p>
 </div>
-				
+
 <!-- Accordian Script -->
 
-<script type="text/javascript">
-var acc = document.getElementsByClassName("accordion");
-var i;
+<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}
+	for (i = 0; i < acc.length; i++) {
+		acc[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var panel = this.nextElementSibling;
+			if (panel.style.maxHeight) {
+				panel.style.maxHeight = null;
+			} else {
+				panel.style.maxHeight = panel.scrollHeight + "px";
+			}
+		});
+	}
 </script>
+</div>
 	</div>
 			<!-- Footer -->
 			<footer id="footer">
