@@ -26,10 +26,6 @@
 		  transition: 0.4s;
 		}
 
-		.active, .accordion:hover {
-		  background-color: #ccc;
-		}
-
 		.accordion:after {
 		  content: '\002B';
 		  color: #777;
@@ -38,7 +34,7 @@
 		  margin-left: 5px;
 		}
 
-		.active:after {
+		.accactive:after {
 		  content: "\2212";
 		}
 
@@ -201,13 +197,14 @@
 					</div>
 					<p>Please email us at <a href="mailto:technical@esc.berkeley.edu?subject=FAQs%20Page%20Question">technical@esc.berkeley.edu </a> for any questions you would like to see added onto this page.</p>
 				</div>
+
 				<script>
 					var acc = document.getElementsByClassName("accordion");
 					var i;
 
 					for (i = 0; i < acc.length; i++) {
 					  acc[i].addEventListener("click", function() {
-					    this.classList.toggle("active");
+					    this.classList.toggle("acc active");
 					    var panel = this.nextElementSibling;
 					    if (panel.style.maxHeight) {
 					      panel.style.maxHeight = null;
