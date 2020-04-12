@@ -73,4 +73,7 @@
     #search {
         display: none;
     }
+		.category li{
+				font-size:9px;
+	}
 }
