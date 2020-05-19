@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Engineering Student Council</title>
+		<title>Engineering Student Council</title> 
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel='icon' href='favicon.ico'/ >
@@ -15,7 +15,14 @@
 
 		<script src="assets/js/clubs2.js"></script>
 		<link href="assets/css/clubs.css" rel="stylesheet">
-
+<!-- test -->
+<!-- <meta charset="utf-8" />
+ --><!-- 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+?<link rel='icon' href='favicon.ico'/ >
+ -->		
+<!--  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+ -->		<!-- <link rel="stylesheet" type="text/css" href="TableFilter/dist/tablefilter/style/tablefilter.css"> -->
+		<!-- end of test -->
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -30,7 +37,7 @@
 					<ul>
 <!-- 						<li><a href="index.html">Home</a></li>
  -->						<li>
-							<a href="#">About Us</a>
+							<a href="#">About Us</a> 
 							<ul>
 								<li><a href="mission.html">Our Mission</a></li>
 								<li><a href="execs.html">Executive Board</a></li>
@@ -277,9 +284,36 @@
 													<li><a href="http://pts.berkeley.edu/" target="_blank"> Pi Tau Sigma Mechanical Engineering Honor Society (PTS)</a></li>
 													<li><a href="https://www.ocf.berkeley.edu/~epsilonpi/" target="_blank"> Epsilon Pi Engineering Physics Honor Society (EP)</a></li>
 													<li><a href="https://www.facebook.com/pg/ucberkeleychiepsilon/about" target="_blank"> Chi Epsilon Civil Engineering Honors Society</a></li>
-
-												</ul>
+													</ul>
+												<div class="accordion" style="font-size: 18px"> <ul style="color: white">Honorary organizations: How are members chosen? </ul></div>
+												<div id="acor_pan">
+										  <p1>From The Berkeley Engineering Website: Membership in one of Berkeley Engineering’s honorary student organizations reflects outstanding academic achievement and service to the collegiate community. Students are invited into these societies according to the following procedures, which ensure the university’s compliance with the Federal Educational Rights and Privacy Act (FERPA). <br> <br>
+1. No later than the first day of classes for the fall semester, engineering honorary organizations email Engineering Student Services (ESS) at ess@berkeley.edu with current contact information for their membership officer(s). <br> <br>
+2. Each honorary organization drafts an email invitation to be sent to all students who meet their membership criteria (e.g., major, number of units completed, GPA). The organization emails the draft invitation to ESS with the honorary organization’s name in the subject line. <br> <br>
+3. Each honorary organization sends a current membership roster to ESS so that current members can be distinguished from potentially eligible new members. <br> <br>
+4. Approximately four weeks into the fall semester, ESS receives an enrollment data report from the registrar. ESS uses this data to determine which students are eligible for membership in each honorary organization. <br> <br>
+5. ESS invites eligible students using the email invitations drafted by the honorary organizations. Each message instructs the invited student to confirm his or her acceptance directly with the relevant honorary organization.
+</p1>
 										</div>
+											</div>
+
+										<script>
+											var acc = document.getElementsByClassName("accordion");
+											var i;
+
+											for (i = 0; i < acc.length; i++) {
+												acc[i].addEventListener("click", function() {
+													this.classList.toggle("active");
+													var panel = this.nextElementSibling;
+													if (panel.style.maxHeight) {
+														panel.style.maxHeight = null;
+													} else {
+														panel.style.maxHeight = panel.scrollHeight + "px";
+													}
+												});
+											}
+										</script>
+							
 
 
 									</section>
