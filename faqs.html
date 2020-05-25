@@ -190,6 +190,23 @@
 									<div class="panel">
 										<p>A: The weekly ESS newsletter provides up to date information about important deadlines, workshops, and numerous opportunities. Your advisor or department may also have weekly emails/newsletters, so make sure to check your inbox for new information. </p>
 									</div>
+									<script>
+											var acc = document.getElementsByClassName("accordion");
+											var i;
+
+											for (i = 0; i < acc.length; i++) {
+												acc[i].addEventListener("click", function() {
+													this.classList.toggle("active");
+													var panel = this.nextElementSibling;
+													if (panel.style.maxHeight) {
+														panel.style.maxHeight = null;
+													} else {
+														panel.style.maxHeight = panel.scrollHeight + "px";
+													}
+												});
+											}
+										</script>
+							
 
 								</section>
 								<div id="content-mobile">
