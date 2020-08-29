@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Engineering Student Council</title>
+		<title>Engineering Student Council</title> 
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel='icon' href='favicon.ico'/ >
@@ -15,7 +15,14 @@
 
 		<script src="assets/js/clubs2.js"></script>
 		<link href="assets/css/clubs.css" rel="stylesheet">
-
+<!-- test -->
+<!-- <meta charset="utf-8" />
+ --><!-- 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+?<link rel='icon' href='favicon.ico'/ >
+ -->		
+<!--  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+ -->		<!-- <link rel="stylesheet" type="text/css" href="TableFilter/dist/tablefilter/style/tablefilter.css"> -->
+		<!-- end of test -->
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -30,12 +37,12 @@
 					<ul>
 <!-- 						<li><a href="index.html">Home</a></li>
  -->						<li>
-							<a href="#">About Us</a>
+							<a href="#">About Us</a> 
 							<ul>
 								<li><a href="mission.html">Our Mission</a></li>
 								<li><a href="execs.html">Executive Board</a></li>
 								<li><a href="committees.html">Our Committees</a></li>
-								<li><a href="clubs.html">Affiliated Organizations</a></li>
+								<li><a href="budget.html">Our Budget</a></li>
 							  <li><a href="positive_messages.html">Positive Messages Campaign</a></li>
 							  <li><a href="sponsors.html">Our Sponsors</a></li>
 								<li><a href="report.html">Semesterly Report</a></li>
@@ -43,7 +50,7 @@
 								<li><a href="https://berkeley.us19.list-manage.com/subscribe?u=a43b64de9699d450384dc3d04&id=dd45839c09" target="_blank">Join Newsletter</a></li>
 								<li><a href="gallery.html">Our Gallery</a></li>
 								<li><a href="https://sites.google.com/berkeley.edu/escinternal/" target="_blank">ESC Internal</a></li>
-								<li><a href="policies.html">Policies</a></li>
+								
 							</ul>
 						</li>
 						<li>
@@ -86,11 +93,11 @@
 								<li>
 									<a href="#">Finance</a>
 										<ul>
-											<li><a href="applyfunding.html">Apply for Funding</a></li>
 											<li><a href="initallocate.html">Initial Allocations</a></li>
 											<li><a href="treasurertrain.html">Treasurer Training</a></li>
 											<li><a href="relevantfinance.html">Relevant Documents</a></li>
 											<li><a href="ficomm.html">FiComm Decisions</a></li>
+											<li><a href='https://docs.google.com/forms/d/e/1FAIpQLSeIO7gJvwTFVTGjxhjmFIXUHuLfiXGGMtuvTYaDY6i5CSQJKA/viewform' target="_blank">Purchase Request Form </a></li>
 										</ul>
 								</li>
 							</ul>
@@ -98,6 +105,7 @@
 						<li><a href="#">Engineers Week</a>
 							<ul>
 								<li><a href="eweek_overview.html">Overview</a></li>
+								<li><a href="https://e4k.berkeley.edu/" target="_blank">E4K</a></li>
 								<li><a href="#" target="_blank">Facebook Pages</a>
 									<ul>
 										<li><a href="https://www.facebook.com/eweekberkeley/" target="_blank">EWeek Facebook</a></li>
@@ -109,7 +117,7 @@
 							</ul>
 
 						</li>
-						<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf0oDhFKccVFXRQNobAbWzRAzk7GRLRipHd-TRSladZOSnpqg/viewform">Join Us</a>
+						<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf0oDhFKccVFXRQNobAbWzRAzk7GRLRipHd-TRSladZOSnpqg/viewform" target="_blank">Join Us</a>
 						<li><a href="https://ophd.berkeley.edu/report" target="_blank" class="button primary">Report Sexual Harassment</a></li>
 					</ul>
 				</nav>
@@ -277,9 +285,69 @@
 													<li><a href="http://pts.berkeley.edu/" target="_blank"> Pi Tau Sigma Mechanical Engineering Honor Society (PTS)</a></li>
 													<li><a href="https://www.ocf.berkeley.edu/~epsilonpi/" target="_blank"> Epsilon Pi Engineering Physics Honor Society (EP)</a></li>
 													<li><a href="https://www.facebook.com/pg/ucberkeleychiepsilon/about" target="_blank"> Chi Epsilon Civil Engineering Honors Society</a></li>
+													</ul>
+												<style> 
+													/* Acordion Help Section Styling */
 
-												</ul>
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  font-size: 12px;
+  text-align: left;
+  background-color: #7c7c82;
+  color: #444;
+  cursor: pointer;
+  padding: 3px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #071966;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+#acor_pan {
+  padding: 0 15px;
+  background-color: #7c7c82;;
+  color: white;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+												</style>
+												<div class="accordion" style="font-size: 18px"> <ul style="color: white">Honorary organizations: How are members chosen? </ul></div>
+												<div id="acor_pan">
+										  <p1>From The Berkeley Engineering Website: <br>Membership in one of Berkeley Engineering’s honorary student organizations reflects outstanding academic achievement and service to the collegiate community. Students are invited into these societies according to the following procedures, which ensure the university’s compliance with the Federal Educational Rights and Privacy Act (FERPA). <br> <br>
+1. No later than the first day of classes for the fall semester, engineering honorary organizations email Engineering Student Services (ESS) at ess@berkeley.edu with current contact information for their membership officer(s). <br> <br>
+2. Each honorary organization drafts an email invitation to be sent to all students who meet their membership criteria (e.g., major, number of units completed, GPA). The organization emails the draft invitation to ESS with the honorary organization’s name in the subject line. <br> <br>
+3. Each honorary organization sends a current membership roster to ESS so that current members can be distinguished from potentially eligible new members. <br> <br>
+4. Approximately four weeks into the fall semester, ESS receives an enrollment data report from the registrar. ESS uses this data to determine which students are eligible for membership in each honorary organization. <br> <br>
+5. ESS invites eligible students using the email invitations drafted by the honorary organizations. Each message instructs the invited student to confirm his or her acceptance directly with the relevant honorary organization.
+</p1>
 										</div>
+											</div>
+
+										<script>
+											var acc = document.getElementsByClassName("accordion");
+											var i;
+
+											for (i = 0; i < acc.length; i++) {
+												acc[i].addEventListener("click", function() {
+													this.classList.toggle("active");
+													var panel = this.nextElementSibling;
+													if (panel.style.maxHeight) {
+														panel.style.maxHeight = null;
+													} else {
+														panel.style.maxHeight = panel.scrollHeight + "px";
+													}
+												});
+											}
+										</script>
+							
 
 
 									</section>
