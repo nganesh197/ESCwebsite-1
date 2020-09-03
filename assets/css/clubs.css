@@ -1,16 +1,12 @@
 /*Page Title Section*/
-#page-wrapper {
-	height: 100%;
-	width: 100%;
-	overflow: hidden;
-	font-family: "Lato", sans-serif;
 
-}
 
 .title {
 	font-size: 2em;
 	font-weight: bold;
 	margin: 0 .5em;
+	color: #000066;
+	text-decoration: underline;
 }
 
 .category {
@@ -18,13 +14,12 @@
 	position: relative;
 	vertical-align: top;
 	margin-bottom: 3em;
-
+	text-decoration: none;
 	padding: 1em;
 }
 
 .category ul {
 	margin: 1em 1em;
-
 }
 
 .category li {
@@ -32,10 +27,11 @@
 }
 
 .category ul a {
-	color: #ffffff;
+	color: #000066;
 	font-weight: lighter;
 	padding: 0 1em;
 	display: block;
+	text-decoration: none;
 }
 
 .category li:hover {
@@ -59,9 +55,9 @@
     margin-top: -1px; /* Prevent double borders */
     padding: .5em; /* Add some padding */
     font-size: 16px; /* Increase the font-size */
-    color: #FBB03B; /* Add a black text color */
+    color: #000066; /* Add a black text color */
     display: block; /* Make it into a block element to fill the whole list */
-    font-weight: 200;
+    font-weight: bold;
 }
 
 #categoryUL li:hover{
@@ -85,7 +81,7 @@
   font-size: 12px;
   text-align: left;
   background-color: #7c7c82;
-  color: #444;
+  color: #FFFFFF;
   cursor: pointer;
   padding: 3px;
   width: 100%;
