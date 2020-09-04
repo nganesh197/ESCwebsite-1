@@ -3362,7 +3362,7 @@ input, select, textarea {
 	.dropotron {
 		background: #FFFFFF;
 		border-radius: 4px;
-		box-shadow: 0 0.075em 1em 0 #000000;
+		box-shadow: 0 0.075em 1em 0 rgb(0,0,0,0.2);
 		list-style: none;
 		margin-top: calc(-0.25em + 1px);
 		min-width: 12em;
@@ -3504,7 +3504,10 @@ input, select, textarea {
 	}
 
 /* Banner */
-
+	/*overides the banner default background image */
+	.student{
+		background-image: url('../../images/banner2.jpg') !important;
+	}
 	#banner {
 		background-attachment: fixed;
 		background-color: #000066;
