@@ -18,7 +18,7 @@ ul, li {
 #top-bar {
     position: fixed;
     width: 100%;
-    background-color: rgba(43, 60, 78, .9); 
+    background-color: rgba(43, 60, 78, .9);
     /*background-color: #34495e;*/
     color: #fff;
     z-index: 10;
