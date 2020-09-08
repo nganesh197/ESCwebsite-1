@@ -32,6 +32,7 @@
 	padding: 0 1em;
 	display: block;
 	text-decoration: none;
+	font-size: 1em;
 }
 
 .category li:hover {
