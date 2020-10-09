@@ -1,3 +1,4 @@
+// custom code written by Niraj 
 document.write('\
 <footer id="footer">\
 <div id="content-desktop">\
@@ -58,7 +59,7 @@ document.write('\
                 </ul>\
             </section>\	       </ul>\
     <ul class="copyright" style = "padding:90px 20px 0px 0px; margin-top:300px;">\
-            <li style="display:block; padding: 5px;">&copy; 2020. All rights reserved | <a href="https://esc.berkeley.edu">Engineering Student Council</a> takes responsibility for this website and its content. </li>\
+            <li style="display:block; padding: 5px;">&copy; 2020. All rights reserved | <a href="https://esc.berkeley.edu">Engineering Student Council</a> takes responsibility for this website and its content.</li>\
     </ul>\
 </div>\
 <div id="content-mobile" style="display:none;">\

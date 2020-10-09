@@ -1,3 +1,4 @@
+//custom code developed by the ESC Technical Directors
 $(document).ready(function() {
     $(".officer").click(function(){
         var $this = $(this);

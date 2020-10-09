@@ -1,3 +1,5 @@
+// custom code written by Niraj 
+
 document.write('\
 <header id="header">\
 <h1 id="logo"><a href="index.html">\
