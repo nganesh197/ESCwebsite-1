@@ -41,7 +41,7 @@ document.write('\
                         <br>\
                         <li style = "list-style:none;">If you are part of a company interested in partnering with the ESC, please contact us through our<a href="mailto:sponsorship@esc.berkeley.edu?subject=Partnering with the ESC"> partnership email</a>.</li>\
                         <br>\
-                        <li style = "list-style:none;">This website is managed by the ESC Technical Directors. For issues and errors on this site, please contact webmaster email <a href="mailto:technical@esc.berkeley.edu?subject=Issues on ESC Main Website"> webmaster email</a>.</li>\
+                        <li style = "list-style:none;">This website is managed by the ESC Technical Team. For issues and errors on this site, please contact this <a href="mailto:technical@esc.berkeley.edu?subject=Issues on ESC Main Website"> webmaster email</a>.</li>\
                     </ul>\
             </section>\
             <section class="col-3 col-6-medium col-12-xsmall" style="width:20%;">\
