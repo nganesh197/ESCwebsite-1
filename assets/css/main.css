@@ -2618,7 +2618,7 @@ input, select, textarea {
 
 		.containimg{
 			position: relative;
-			box-shadow: 5px 10px #000066 ;
+			box-shadow: 0.75em 0.75em 0 #000066 ;
 			border: 1px solid #888888;
 
 
@@ -2650,6 +2650,11 @@ input, select, textarea {
 
 		  .containimg:hover .middle {
 			opacity: 1;
+		  }
+		  .middle p:hover{
+			box-shadow: 0.05em 0.1em 0.05em 0 #000066;
+			transform: translateX(1%);
+
 		  }
 /* List */
 
@@ -3754,6 +3759,7 @@ input, select, textarea {
 
 			#footer {
 				padding: 4.5em 0;
+				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
 			}
 
 	}
@@ -3849,6 +3855,7 @@ input, select, textarea {
 
 			#footer {
 				padding: 1.5em 0;
+				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
 			}
 
 	}

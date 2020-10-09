@@ -73,7 +73,6 @@ document.write('\
 						</ul>\
 				</li>\
 				<li><a href="treasurertrain.html">Treasurer Training</a></li>\
-				<li><a href="https://sites.google.com/berkeley.edu/esc-affiliation-portal/home">Affiliation Portal</a></li>\
 \
 			</ul>\
 		</li>\
