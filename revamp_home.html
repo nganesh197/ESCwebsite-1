@@ -12,6 +12,82 @@
 		<link rel='icon' href='favicon.ico'/ >
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.row{
+				display:flex;
+				flex-wrap: wrap;
+				justify-content:center;
+				}
+
+				.col{
+				flex: 0 0 calc(15%);
+				margin: 5px;
+				}
+				.faq_question {
+					margin: 0px;
+					padding: 0px 0px 5px 0px;
+					display: inline-block;
+					cursor: pointer;
+					font-weight: bold;
+				}
+				
+				/* .faq_answer_container {
+					display: none;
+				} */
+
+				.accordion {
+					background-color: #eee;
+					color: #000066;
+					cursor: pointer;
+						font-weight: bold;
+					padding: 15px;
+					width: 50%;
+					border: none;
+					text-align: left;
+					outline: none;
+					font-size: 15px;
+					transition: 0.4s;
+					}
+
+					.accordion:after {
+					content: '\002B';
+					color: #777;
+					font-weight: bold;
+					float: right;
+					margin-left: 0px;
+					}
+
+					.accactive:after {
+					content: "\2212";
+					}
+
+					.panel {
+					padding: 0 18px;
+					background-color: white;
+						color: #000066;
+					max-height: 0;
+					overflow: hidden;
+					transition: max-height 0.2s ease-out;}
+		</style>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script>
+			$(document).ready(function() {
+	
+				$('.faq_question').click(function() {
+	
+					if ($(this).parent().is('.open')) {
+						$(this).closest('.faq').find('.faq_answer_container').slideUp();
+						$(this).closest('.faq').removeClass('open');
+					} else {
+						$('.faq_answer_container').slideUp();
+						$('.faq').removeClass('open');
+						$(this).closest('.faq').find('.faq_answer_container').slideDown();
+						$(this).closest('.faq').addClass('open');
+					}
+	
+				});
+			});
+		</script>
 	</head>
 	<body class="is-preload landing" >
 		<div id="page-wrapper home">
@@ -120,7 +196,9 @@
 						<li><a href="https://ophd.berkeley.edu/report" target="_blank" class="button primary">Report Sexual Harassment</a></li>
 					</ul>
 				</nav>
+				
 			</header>
+			
 			 <!-- <section id="five" class="wrapper style2 special fade"style="padding-bottom:0.1em;">
 			 <div class="container">
 					<h5 style="font-weight:bold;text-align:bottom;padding-top:2em;">
@@ -133,15 +211,15 @@
 						<header>
 							<center>
 							<h1 style="color:#FFFFFF;font-weight:bold;">Engineering Student Council </h1>
-              <h3 style="color:#FFFFFF;font-style:italic;"> For over 29 years, ESC is responsible for handling and dispersing ASUC funds to engineering student organizations. We also host one of the largest organization spaces on campus as
-                well as one of the largest engineering themed events on campus, Engineer's Week. </h3>
+              				<h3 style="color:#FFFFFF;font-style:italic;"> For over 29 years, ESC is responsible for handling and dispersing ASUC funds to engineering student organizations. We also host one of the largest organization spaces on campus as
+                				well as one of the largest engineering themed events on campus, Engineer's Week. </h3>
 							</center>
 						</header>
 					</div>
 					<a href="#one" class="goto-next scrolly">Next</a>
 				</section>
 
-        <section id="one" class="spotlight style1 top" >
+       		 <section id="one" class="spotlight style1 top" >					
 					<div class="content" style="background-color:#FFFFFF;">
 						<div class="container">
 							<div class="row">
@@ -149,15 +227,104 @@
 									<h3 style="font-size: 20px; color:#000066;font-style:italic;">Our mission is to represent the engineering student body;
     								support engineering societies in reaching their full potential;
     								 and promote a diverse community through successful collaboration
-    								 between students, faculty, societies, and the College of Engineering.</h3>
+									 between students, faculty, societies, and the College of Engineering.</h3>
+									 <div class="row">
+										<div class="item-1 col">
+										 <img class="alignnone size-full wp-image-342" src="http://blog.spoongraphics.co.uk/wp-content/uploads/2013/monkey/21.jpg" alt="" width="150" height="150" />
+										Online Learning
+										</div>
+										<div class="item-2 col">
+										<img class="alignnone size-full wp-image-341" src="http://blog.spoongraphics.co.uk/wp-content/uploads/2013/monkey/21.jpg" alt="" width="150" height="150" />
+										HEAR Tool
+										</div>
+										<div class="item-3 col">
+										<img class="alignnone size-full wp-image-343" src="http://blog.spoongraphics.co.uk/wp-content/uploads/2013/monkey/21.jpg" alt="" width="150" height="150" />
+										Carrer Orientation 
+										</div>
+										<div class="item-4 col">
+										<img class="alignnone size-full wp-image-345" src="http://blog.spoongraphics.co.uk/wp-content/uploads/2013/monkey/21.jpg" alt="" width="150" height="150" />
+										Academics
+										</div>
+										</div>
+
+										<div class="faq_container">
+											<div class="faq">
+											</div>
+											<!-- Content -->
+								<section id="content">
+									<button class="accordion">Q: What are some studying resources to make it easier to transition to virtual college?</button>
+									<div class="panel">
+									  <p>A: Getting involved in student organizations can help students pursue what they are passionate about while also developing teamwork and leadership skills. You can find a list of all student organizations at callink.berkeley.edu/organizations. You can find engineering student organizations on the ESC website under the organizations tab. To hear about organizations in person,
+											check out club fairs held at the beginning of each semester. </p>
+									</div>
+
+									<button class="accordion">Q: What are some ways to be social in a virtual setting?
+
+									</button>
+									<div class="panel">
+									  <p>A: There are many ways to learn about different majors and concentrations. Engineering Student Services (ESS) hosts an event every semester called “Major Madness” for students to talk to their peers and help them decide which major best suits their interests. Another way to learn more about different majors is to talk to upperclassmen in a major you are interested in exploring,
+											or by talking to your advisor. </p>
+									</div>
+
+									<button class="accordion">Q: How do I know what classes to take?</button>
+									<div class="panel">
+									  <p>A: A great resource to check out is the “Four Year Degree Plan” mapped out for each major. Make sure to keep track of the major, college, and campus requirements when deciding what classes to take each semester. The Berkeley Course Catalog has all courses listed for each semester and is a good way to learn more about different courses. There are also peer advisors at ESS to
+											help answer any extra questions. </p>
+									</div>
+
+									<button class="accordion">Q: How can I get academic support?</button>
+									<div class="panel">
+										<p>A: The Center for Access to Engineering Excellence (CAEE) in 227 and 240 Bechtel is a study space that offers drop in tutoring services for many core engineering courses. Check out the CAEE course tutoring schedule to see specific hours for different courses. Office hours are another helpful resource to get extra help, ask questions, or engage in course material. </p>
+									</div>
+									<script>
+											var acc = document.getElementsByClassName("accordion");
+											var i;
+
+											for (i = 0; i < acc.length; i++) {
+												acc[i].addEventListener("click", function() {
+													this.classList.toggle("active");
+													var panel = this.nextElementSibling;
+													if (panel.style.maxHeight) {
+														panel.style.maxHeight = null;
+													} else {
+														panel.style.maxHeight = panel.scrollHeight + "px";
+													}
+												});
+											}
+										</script>
+									
+											<!-- <div class="faq">
+												<div class="faq_question">How to get advice on classes and coursework?
+												</div>
+												<div class="faq_answer_container">
+													<div class="faq_answer">Answer goes here</div>
+												</div>
+											</div>
+									
+											<div class="faq">
+												<div class="faq_question">What are some ways to be social in a virtual setting?
+												</div>
+												<div class="faq_answer_container">
+													<div class="faq_answer">Answer goes here</div>
+												</div>
+											</div>
+
+											<div class="faq">
+												<div class="faq_question">What is esc affiliation and why does it matter?
+
+												</div>
+												<div class="faq_answer_container">
+													<div class="faq_answer">Answer goes here</div>
+												</div>
+											</div> -->
+										</div>
 								</center>
+								
 							</div>
+							
 						</div>
-					</div>
-					<a href="#two" class="goto-next scrolly">Next</a>
+						<!-- /* <a href="#two" class="goto-next scrolly">Next</a> */ -->
 				</section>
-
-
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
