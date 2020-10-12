@@ -2,7 +2,7 @@
 
 
 .title {
-	font-size: 2em;
+	font-size: 1.25em;
 	font-weight: bold;
 	margin: 0 .5em;
 	color: #000066;
@@ -20,6 +20,7 @@
 
 .category ul {
 	margin: 1em 1em;
+	list-style-type: none;
 }
 
 .category li {
@@ -36,7 +37,7 @@
 }
 
 .category li:hover {
-	background-color: #000066;
+	background-color: #FFF;
 }
 
 .category li:hover > a {
