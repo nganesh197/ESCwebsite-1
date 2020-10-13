@@ -1,8 +1,8 @@
 /*
-	Template from Landed by HTML5 UP html5up.net | @ajlkn
+	Base Template from Landed by HTML5 UP html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-	This file has been modified to be used as part of the ESC Website. Usage of photos and 
+	This file has been partially modified to be used as part of the ESC Website. Usage of photos and 
 	data requires approval from an executive of the ESC Board. 
 
 	Edited by: Niraj, Emme, and Joyce

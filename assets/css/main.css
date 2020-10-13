@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
 /*
-	Template from Landed by HTML5 UP html5up.net | @ajlkn
+	Base Template from Landed by HTML5 UP html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-	This file has been modified to be used as part of the ESC Website. Usage of photos and 
-	data requires approval from an executive of the ESC Board. 
+	This file has been heavily modified to be used as part of the ESC Website. Usage of photos and 
+	data requires approval from an executive of the ESC Board in good standing. 
 
 	Edited by: Niraj, Emme, and Joyce
 */
@@ -2618,7 +2618,7 @@ input, select, textarea {
 
 		.containimg{
 			position: relative;
-			box-shadow: 5px 10px #000066 ;
+			box-shadow: 0.75em 0.75em 0 #000066 ;
 			border: 1px solid #888888;
 
 
@@ -2650,6 +2650,11 @@ input, select, textarea {
 
 		  .containimg:hover .middle {
 			opacity: 1;
+		  }
+		  .middle p:hover{
+			box-shadow: 0.05em 0.1em 0.05em 0 #000066;
+			transform: translateX(1%);
+
 		  }
 /* List */
 
@@ -3754,6 +3759,7 @@ input, select, textarea {
 
 			#footer {
 				padding: 4.5em 0;
+				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
 			}
 
 	}
@@ -3849,6 +3855,7 @@ input, select, textarea {
 
 			#footer {
 				padding: 1.5em 0;
+				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
 			}
 
 	}
