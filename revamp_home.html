@@ -1,0 +1,382 @@
+<!DOCTYPE HTML>
+<!--
+	Engineering Student Council Official website
+	Updated as of 11/18/2019
+	contact: technical@esc.berkeley.edu for issues on this website
+-->
+<html>
+	<head>
+		<title>Engineering Student Council</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel='icon' href='favicon.ico'/ >
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.row{
+				display:flex;
+				flex-wrap: wrap;
+				justify-content:center;
+				}
+
+				.col{
+				flex: 0 0 calc(15%);
+				margin: 5px;
+				}
+				.faq_question {
+					margin: 0px;
+					padding: 0px 0px 5px 0px;
+					display: inline-block;
+					cursor: pointer;
+					font-weight: bold;
+				}
+				
+				/* .faq_answer_container {
+					display: none;
+				} */
+
+				.accordion {
+					background-color: #eee;
+					color: #000066;
+					cursor: pointer;
+						font-weight: bold;
+					padding: 15px;
+					width: 50%;
+					border: none;
+					text-align: left;
+					outline: none;
+					font-size: 15px;
+					transition: 0.4s;
+					}
+
+					.accordion:after {
+					content: '\002B';
+					color: #777;
+					font-weight: bold;
+					float: right;
+					margin-left: 0px;
+					}
+
+					.accactive:after {
+					content: "\2212";
+					}
+
+					.panel {
+					padding: 0 18px;
+					background-color: white;
+						color: #000066;
+					max-height: 0;
+					overflow: hidden;
+					transition: max-height 0.2s ease-out;}
+		</style>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script>
+			$(document).ready(function() {
+	
+				$('.faq_question').click(function() {
+	
+					if ($(this).parent().is('.open')) {
+						$(this).closest('.faq').find('.faq_answer_container').slideUp();
+						$(this).closest('.faq').removeClass('open');
+					} else {
+						$('.faq_answer_container').slideUp();
+						$('.faq').removeClass('open');
+						$(this).closest('.faq').find('.faq_answer_container').slideDown();
+						$(this).closest('.faq').addClass('open');
+					}
+	
+				});
+			});
+		</script>
+	</head>
+	<body class="is-preload landing" >
+		<div id="page-wrapper home">
+
+			<!-- Header -->
+			<header id="header">
+				<h1 id="logo"><a href="index.html">
+					<span class="image"><img src="images/main_nobckgnd.png" alt="Engineering Student Council Logo"  height="95" width="285" style="vertical-align: top; width:auto;"/></span></a></h1>
+				<nav id="nav">
+					<ul>
+				 		<li>
+							<a href="#">About Us</a>
+							<ul>
+                <li><a href="mission.html">Our Mission</a></li>
+                <li><a href="#">Our Team</a>
+                  <ul>
+                    <li><a href="execs.html">Executive Board</a></li>
+                    <li><a href="committees.html">Our Committees</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Our Finances</a>
+                  <ul>
+								    <li><a href="budget.html">Our Budget</a></li>
+                    <li><a href="sponsors.html">Our Sponsors</a></li>
+                  </ul>
+                </li>
+							  <li><a href="positive_messages.html">Positive Messages Campaign</a></li>
+								<li><a href="#" target="_blank">Contact us</a></li>
+								<li><a href="https://sites.google.com/berkeley.edu/escinternal/" target="_blank">ESC Internal</a></li>
+
+							</ul>
+						</li>
+						<li>
+							<a href="students.html">Students</a>
+							<ul>
+                <li><a href="#">Health</a>
+                    <ul>
+                      <li><a href="fmpi.html">Free Menstrual Product Initiative</a></li>
+                      <li><a href="https://dac.berkeley.edu/" target="_blank"> Disability Access and Compliance</a></li>
+								      <li><a href="hear.html">HEAR Tool</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Life Resources</a>
+                    <ul>
+                    		<li><a href="food.html">Food Advice</a></li>
+                        <li><a href="housing.html">Housing</a></li>
+                        <li><a href="finance.html">Finance Advice</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Academic Enrichment</a>
+                  <ul>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="engin_decals.html">Engineering-Focused Decals</a></li>
+                    <li><a href="makerspaces.html">Makerspaces</a></li>
+                    <li><a href="startups.html">Startups</a></li>
+                  </ul>
+                </li>
+								<li><a href="https://ophd.berkeley.edu/report" target="_blank">Report Sexual Harassment</a></li>
+								<li><a href="faqs.html">Frequently Asked Questions</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Organizations</a>
+							<ul>
+
+								<li><a href="#">Affiliation</a>
+									<ul>
+                    					<li><a href="clubs.html">Organizations</a></li>
+                        				<li><a href="escaffiliation.html">Process</a></li>
+                        				<li><a href="https://sites.google.com/berkeley.edu/esc-affiliation-portal/home">Portal</a></li>
+                   					 </ul>
+                   				</li>
+								<li><a href="#">Finances</a>
+										<ul>
+											<li><a href="ficomm.html">Financial Decisions</a></li>
+											<li><a href='https://docs.google.com/forms/d/e/1FAIpQLSeIO7gJvwTFVTGjxhjmFIXUHuLfiXGGMtuvTYaDY6i5CSQJKA/viewform' target="_blank">Purchase Request Form </a></li>
+										</ul>
+								</li>
+								<li><a href="treasurertrain.html">Treasurer Training</a></li>
+								<li><a href="https://sites.google.com/berkeley.edu/esc-affiliation-portal/home">Affiliation Portal</a></li>
+               
+							</ul>
+						</li>
+						<li><a href="#">Events</a>
+							<ul>
+								<li><a href="events.html" target="_blank">Upcoming Events</a></li>
+								<li><a href="eweek_overview.html">Engineers Week</a></li>
+								<li><a href="https://e4k.berkeley.edu/" target="_blank">E4K</a></li>
+							</ul>
+
+						</li>
+						<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf0oDhFKccVFXRQNobAbWzRAzk7GRLRipHd-TRSladZOSnpqg/viewform" target="_blank">Connect</a>
+							<ul>
+								<li><a href="#">Facebook Pages</a>
+										<ul>
+											<li><a href="https://www.facebook.com/eweekberkeley/" target="_blank">EWeek Facebook</a></li>
+											<li><a href="https://www.facebook.com/berkeleye4k/" target="_blank">E4K Facebook</a></li>
+											<li><a href="https://www.facebook.com/ESC.Berkeley/" target="_blank">ESC Facebook</a></li>
+										</ul>
+								</li>
+								<li><a href="https://www.instagram.com/berkeleyesc/?hl=en" target="_blank">Instagram</a></li>
+								<li><a href="https://berkeley.us19.list-manage.com/subscribe?u=a43b64de9699d450384dc3d04&id=dd45839c09" target="_blank">Sign up for newsletter </a></li>
+								<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf0oDhFKccVFXRQNobAbWzRAzk7GRLRipHd-TRSladZOSnpqg/viewform" target="_blank">Join the team </a></li>
+							</ul>
+						</li>
+						<li><a href="https://ophd.berkeley.edu/report" target="_blank" class="button primary">Report Sexual Harassment</a></li>
+					</ul>
+				</nav>
+				
+			</header>
+			
+			 <!-- <section id="five" class="wrapper style2 special fade"style="padding-bottom:0.1em;">
+			 <div class="container">
+					<h5 style="font-weight:bold;text-align:bottom;padding-top:2em;">
+					ESC's Compilation of COVID-19 Resources <a href=covid.html class="button small" target="_blank">Click Here</a></h5>
+				</div>
+			</section> -->
+
+				<section id="banner">
+					<div class="content">
+						<header>
+							<center>
+							<h1 style="color:#FFFFFF;font-weight:bold;">Engineering Student Council </h1>
+              				<h3 style="color:#FFFFFF;font-style:italic;"> For over 29 years, ESC is responsible for handling and dispersing ASUC funds to engineering student organizations. We also host one of the largest organization spaces on campus as
+                				well as one of the largest engineering themed events on campus, Engineer's Week. </h3>
+							</center>
+						</header>
+					</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+				
+<section id="two" class="wrapper style1 special fade-up">
+					<div class="content" style="background-color:#FFFFFF;">
+						<div class="container">
+							<div class="row">
+								<center>
+									<h3 style="font-size: 20px; color:#000066;font-style:italic;">Our mission is to represent the engineering student body;
+    								support engineering societies in reaching their full potential;
+    								 and promote a diverse community through successful collaboration
+									 between students, faculty, societies, and the College of Engineering.</h3>
+									 <!-- <div class="content" style="background-color:#FFFFFF;">
+										<div class="container">
+									 <div class="row"> -->
+										<div class="box alt">
+											<div class="row gtr-uniform">
+										<section class="row gtr-uniform">
+											<div class="containimg">
+												<span><img src="/Users/beep/Desktop/ESCwebsite/assets/img/academics.jpg" class="hovimg" alt="ESC Fall 2019 Semester Report PDF Document" width="95%"/></span>
+												<div class="middle" style="  grid-gap: 50px;">
+													<h3 style="font-weight:bold;font-size:24px;"><a href="https://drive.google.com/file/d/1xK3JUImdZNJE4mFd36rGNqwaJoxc1N0p/view?usp=sharing" target="_blank">Online Learning </a></h3>
+													<!-- <h4 style="text-decoration:underline;font-size:16px;"> Contents in this report </h4>
+														<li style="font-size:12px;">Note from the President</li>
+														<li style="font-size:12px;">Community Event</li>
+														<li style="font-size:12px;">General Meeting Summaries</li>
+														<li style="font-size:12px;">Major Statistics of the Semester</li>
+														<li style="font-size:12px;">Demographic Survey</li> -->
+												</div>
+											</div>
+										</section>
+										<section class="col-4 col-6-medium col-12-xsmall">
+											<div class="containimg">
+												<span><img src="/Users/beep/Desktop/ESCwebsite/assets/img/academics.jpg" class="hovimg" alt="ESC Fall 2019 Semester Report PDF Document" width="95%"/></span>
+												<div class="middle">
+													<h3 style="font-weight:bold;font-size:24px;"><a href="https://drive.google.com/file/d/1xK3JUImdZNJE4mFd36rGNqwaJoxc1N0p/view?usp=sharing" target="_blank">Hear Tool</a></h3>
+													<!-- <h4 style="text-decoration:underline;font-size:16px;"> Contents in this report </h4>
+														<li style="font-size:12px;">Note from the President</li>
+														<li style="font-size:12px;">Community Event</li>
+														<li style="font-size:12px;">General Meeting Summaries</li>
+														<li style="font-size:12px;">Major Statistics of the Semester</li>
+														<li style="font-size:12px;">Demographic Survey</li> -->
+												</div>
+											</div>
+										</section><section class="col-4 col-6-medium col-12-xsmall">
+											<div class="containimg">
+												<span><img src="/Users/beep/Desktop/ESCwebsite/assets/img/academics.jpg" class="hovimg" alt="ESC Fall 2019 Semester Report PDF Document" width="95%"/></span>
+												<div class="middle">
+													<h3 style="font-weight:bold;font-size:24px;"><a href="https://drive.google.com/file/d/1xK3JUImdZNJE4mFd36rGNqwaJoxc1N0p/view?usp=sharing" target="_blank">Career Orientation 
+													</a></h3>
+													<!-- <h4 style="text-decoration:underline;font-size:16px;"> Contents in this report </h4>
+														<li style="font-size:12px;">Note from the President</li>
+														<li style="font-size:12px;">Community Event</li>
+														<li style="font-size:12px;">General Meeting Summaries</li>
+														<li style="font-size:12px;">Major Statistics of the Semester</li>
+														<li style="font-size:12px;">Demographic Survey</li> -->
+												</div>
+											</div>
+										</section><section class="col-4 col-6-medium col-12-xsmall">
+											<div class="containimg">
+												<span><img src="/Users/beep/Desktop/ESCwebsite/assets/img/academics.jpg" class="hovimg" alt="ESC Fall 2019 Semester Report PDF Document" width="95%"/></span>
+												<div class="middle">
+													<h3 style="font-weight:bold;font-size:24px;"><a href="https://drive.google.com/file/d/1xK3JUImdZNJE4mFd36rGNqwaJoxc1N0p/view?usp=sharing" target="_blank">Academics</a></h3>
+													<!-- <h4 style="text-decoration:underline;font-size:16px;"> Contents in this report </h4>
+														<li style="font-size:12px;">Note from the President</li>
+														<li style="font-size:12px;">Community Event</li>
+														<li style="font-size:12px;">General Meeting Summaries</li>
+														<li style="font-size:12px;">Major Statistics of the Semester</li>
+														<li style="font-size:12px;">Demographic Survey</li> -->
+												</div>
+											</div>
+										</section>
+										</div>
+
+										<div class="faq_container">
+											<div class="faq">
+											</div>
+											<!-- Content -->
+								<section id="content">
+									<button class="accordion">Q: What are some studying resources to make it easier to transition to virtual college?</button>
+									<div class="panel">
+									  <p>A: Getting involved in student organizations can help students pursue what they are passionate about while also developing teamwork and leadership skills. You can find a list of all student organizations at callink.berkeley.edu/organizations. You can find engineering student organizations on the ESC website under the organizations tab. To hear about organizations in person,
+											check out club fairs held at the beginning of each semester. </p>
+									</div>
+
+									<button class="accordion">Q: What are some ways to be social in a virtual setting?
+
+									</button>
+									<div class="panel">
+									  <p>A: There are many ways to learn about different majors and concentrations. Engineering Student Services (ESS) hosts an event every semester called “Major Madness” for students to talk to their peers and help them decide which major best suits their interests. Another way to learn more about different majors is to talk to upperclassmen in a major you are interested in exploring,
+											or by talking to your advisor. </p>
+									</div>
+
+									<button class="accordion">Q: How do I know what classes to take?</button>
+									<div class="panel">
+									  <p>A: A great resource to check out is the “Four Year Degree Plan” mapped out for each major. Make sure to keep track of the major, college, and campus requirements when deciding what classes to take each semester. The Berkeley Course Catalog has all courses listed for each semester and is a good way to learn more about different courses. There are also peer advisors at ESS to
+											help answer any extra questions. </p>
+									</div>
+
+									<button class="accordion">Q: How can I get academic support?</button>
+									<div class="panel">
+										<p>A: The Center for Access to Engineering Excellence (CAEE) in 227 and 240 Bechtel is a study space that offers drop in tutoring services for many core engineering courses. Check out the CAEE course tutoring schedule to see specific hours for different courses. Office hours are another helpful resource to get extra help, ask questions, or engage in course material. </p>
+									</div>
+									<script>
+											var acc = document.getElementsByClassName("accordion");
+											var i;
+
+											for (i = 0; i < acc.length; i++) {
+												acc[i].addEventListener("click", function() {
+													this.classList.toggle("active");
+													var panel = this.nextElementSibling;
+													if (panel.style.maxHeight) {
+														panel.style.maxHeight = null;
+													} else {
+														panel.style.maxHeight = panel.scrollHeight + "px";
+													}
+												});
+											}
+										</script>
+									
+											<!-- <div class="faq">
+												<div class="faq_question">How to get advice on classes and coursework?
+												</div>
+												<div class="faq_answer_container">
+													<div class="faq_answer">Answer goes here</div>
+												</div>
+											</div>
+									
+											<div class="faq">
+												<div class="faq_question">What are some ways to be social in a virtual setting?
+												</div>
+												<div class="faq_answer_container">
+													<div class="faq_answer">Answer goes here</div>
+												</div>
+											</div>
+
+											<div class="faq">
+												<div class="faq_question">What is esc affiliation and why does it matter?
+
+												</div>
+												<div class="faq_answer_container">
+													<div class="faq_answer">Answer goes here</div>
+												</div>
+											</div> -->
+										</div>
+								</center>
+								
+							</div>
+							
+						</div>
+						<!-- /* <a href="#two" class="goto-next scrolly">Next</a> */ -->
+				</section>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
