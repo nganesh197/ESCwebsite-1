@@ -66,7 +66,7 @@ document.write('\
         <ul class="copyright" style = "padding-top:10px;margin: 5px 5px 5px 5px; text-align:center;">\
                 <li style="display:block;">&copy; 2019. All rights reserved | <a href="https://esc.berkeley.edu">Engineering Student Council</a> takes responsibility for this website and its content.\
                  </li>\
-              <img src="images/ocfbadge.png" alt="OCF Badge" style="padding-left:5px;padding-top:15px; ">\
+              <a href="https://ocf.berkeley.edu" target="_blank>"<img src="images/ocfbadge.png" alt="OCF Badge" style="padding-left:5px;padding-top:15px; "> </a>\
         </ul>\
 </div>\
 </footer>\
