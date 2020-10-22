@@ -2451,7 +2451,7 @@ input, select, textarea {
 		opacity: 1.0;
 	}
 
-/*Card */
+/* Card */
 	.card {
 		display: flex;
 		flex-direction: column;
@@ -2473,7 +2473,7 @@ input, select, textarea {
 	}
 
 	.card:hover {
-		box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em !important();
+		box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em !important;
 		transform: translateY(-3px) scale(1.1) !important;
 	 }
 	 
@@ -2494,6 +2494,46 @@ input, select, textarea {
 		  grid-column: span 2 / auto;
 		}
 	  }
+
+
+/* Accordion */
+	.accordion {
+		background-color: #FFF;
+		color: #000066;
+		cursor: pointer;
+		font-weight: bold;
+		padding: 18px;
+		width: 100%;
+		border: none;
+		text-align: left;
+		outline: none;
+		border: 1.5px solid #eee;
+		box-shadow: 3px 3px 1px 1px #999;
+		font-size: 15px;
+		transition: 0.4s;
+	}
+
+	.accordion:after {
+		content: '\002B';
+		color: #888;
+		font-weight: bold;
+		float: right;
+		margin-left: 5px;
+	}
+
+	.accactive:after {
+		content: "\2212";
+	}
+
+	.panel {
+		padding: 0 18px;
+		background-color: #eee;
+		color: #000066;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.2s ease-out;}
+
+
 
 /* Box */
 
