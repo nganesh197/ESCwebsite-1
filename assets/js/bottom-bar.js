@@ -53,7 +53,7 @@ document.write('\
                     University of California, Berkeley <br>\
                     Berkeley, California, 94704 \
                 </ul>\
-                <ul> <img src="images/ocfbadge.png" alt="OCF Badge" width="40%" /> </ul>\
+                <ul> <a href="https://ocf.berkeley.edu" target="_blank"> <img src="images/ocfbadge.png" alt="OCF Badge" width="40%" /> </a></ul>\
                 <ul>\
                     <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d787.3518297711936!2d-122.25877117075086!3d37.87415605734976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDUyJzI3LjAiTiAxMjLCsDE1JzI5LjYiVw!5e0!3m2!1sen!2sus!4v1569994442613!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen=""></iframe> -->\
                 </ul>\
@@ -66,7 +66,7 @@ document.write('\
         <ul class="copyright" style = "padding-top:10px;margin: 5px 5px 5px 5px; text-align:center;">\
                 <li style="display:block;">&copy; 2019. All rights reserved | <a href="https://esc.berkeley.edu">Engineering Student Council</a> takes responsibility for this website and its content.\
                  </li>\
-              <img src="images/ocfbadge.png" alt="OCF Badge" style="padding-left:5px;padding-top:15px; ">\
+              <a href="https://ocf.berkeley.edu" target="_blank"><img src="images/ocfbadge.png" alt="OCF Badge" style="padding-left:5px;padding-top:15px; "> </a>\
         </ul>\
 </div>\
 </footer>\

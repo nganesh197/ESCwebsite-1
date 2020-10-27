@@ -7,9 +7,8 @@ document.write('\
 <nav id="nav">\
 	<ul>\
 		 <li>\
-			<a href="#">About Us</a>\
+			<a href="about.html">About Us</a>\
 			<ul>\
-<li><a href="mission.html">Our Mission</a></li>\
 <li><a href="#">Our Team</a>\
   <ul>\
 	<li><a href="execs.html">Executive Board</a></li>\
