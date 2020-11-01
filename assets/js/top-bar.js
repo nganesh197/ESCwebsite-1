@@ -77,7 +77,7 @@ document.write('\
 \
 			</ul>\
 		</li>\
-		<li><a href="#">Events</a>\
+		<li><a href="events.html">Events</a>\
 			<ul>\
 				<li><a href="events.html" target="_blank">Upcoming Events</a></li>\
 				<li><a href="eweek_overview.html">Engineers Week</a></li>\

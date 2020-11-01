@@ -11,7 +11,7 @@
 	width: 100%;
 	height: 100%;
 
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", sans-serif;
     font-weight: 100;
     text-align: center;
 }
@@ -109,10 +109,10 @@
 
 /*Yikes, Emphasizes arrow hover*/
 .officer:hover > .arrow {
-	-webkit-animation: arrow-bounce 0.5s alternate infinite;
+	--webkit-animation: arrow-bounce 0.5s alternate infinite;
 }
 
-@-webkit-keyframes arrow-bounce { /*Safari and Chrome*/
+@keyframes arrow-bounce { /*Safari and Chrome*/
 	from {-webkit-transform: translate(-50%, 5px);}
 	to {-webkit-transform: translate(-50%, -5px);}
 }
