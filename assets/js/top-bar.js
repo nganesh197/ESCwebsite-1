@@ -22,7 +22,7 @@ document.write('\
   </ul>\
 </li>\
 			  <li><a href="positive_messages.html">Positive Messages Campaign</a></li>\
-				<li><a href="#" target="_blank">Contact us</a></li>\
+				<li><a href="https://form.typeform.com/to/UTcmX9lD" data-mode="popup">Contact Us </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script></li>\
 				<li><a href="https://sites.google.com/berkeley.edu/escinternal/" target="_blank">ESC Internal</a></li>\
 \
 			</ul>\
@@ -57,7 +57,7 @@ document.write('\
 			</ul>\
 		</li>\
 		<li>\
-			<a href="#">Organizations</a>\
+			<a href="organizations-home.html">Organizations</a>\
 			<ul>\
 \
 				<li><a href="#">Affiliation</a>\
@@ -69,7 +69,7 @@ document.write('\
 				   </li>\
 				<li><a href="#">Finances</a>\
 						<ul>\
-							<li><a href="ficomm.html">Financial Decisions</a></li>\
+							<li><a href="fin-decisions.html">Financial Decisions</a></li>\
 							<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeIO7gJvwTFVTGjxhjmFIXUHuLfiXGGMtuvTYaDY6i5CSQJKA/viewform" target="_blank">Purchase Request Form </a></li> \
 						</ul>\
 				</li>\
