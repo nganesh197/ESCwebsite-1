@@ -2844,6 +2844,13 @@ input, select, textarea {
 			top: 0.25em;
 		}
 
+		/* .image.small {
+			float: left;
+			margin: 0 1.5em 1em 0;
+			top: 0.25em;
+			size: 25%;
+		} */
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
